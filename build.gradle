@@ -1,0 +1,19 @@
+plugins {
+	id 'org.springframework.boot' version '1.5.8.RELEASE'
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'org.springframework.boot'
+
+group = 'com.iyher.spring.logging.requestid'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+	jcenter()
+}
+
+dependencies {
+	compile 'org.springframework.boot:spring-boot-starter-web'
+}
