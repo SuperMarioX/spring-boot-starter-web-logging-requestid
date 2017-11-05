@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE logback>
+<included>
+	<conversionRule conversionWord="reqId" converterClass="com.iyher.spring.logging.requestid.RequestIdConverter" />
+</included>
