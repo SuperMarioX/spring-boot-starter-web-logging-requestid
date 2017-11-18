@@ -5,15 +5,7 @@ logging one request, one id.
 for spring boot starter web.
 
 ## how to use
-* add scan
-```java
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.iyher.spring.logging.requestid.LoggingFilter;
-
-@SpringBootApplication(scanBasePackageClasses = {$$$your ApplicationClass$$$,LoggingFilter.class})
-```
 * add logging setting
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
